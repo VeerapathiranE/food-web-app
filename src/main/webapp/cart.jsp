@@ -90,6 +90,19 @@ body {
     cursor:pointer;
 }
 
+
+.checkout-link {
+    display:block;
+    width:fit-content;
+    margin:30px auto;   /* centers it */
+    padding:12px 25px;
+    background:#fc8019;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+}
+
 /* CLEAR BUTTON */
 .clear {
     background:red;
@@ -182,7 +195,8 @@ for(CartItem item : cart.getAllItems()){
 
 </div>
 
-<a href="checkout.jsp">Proceed to Checkout</a>
+
+<a href="checkout.jsp" class="checkout-link">Proceed to Checkout</a>
 
 
 </body>
